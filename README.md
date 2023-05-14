@@ -6,7 +6,12 @@ The Gallery Viewer is a Python script that (optionally) generates a sequence of 
 
 To use the Gallery Viewer, you will need to have Python 3 and Tkinter installed on your system. You can install Tkinter using pip:
 
+
+Using a conda environment
 ```
+conda create --name image-generator python=3.9
+conda activate image-generator
+conda install pillow
 pip install tkinter
 ```
 
